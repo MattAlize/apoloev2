@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apoloé – La Pause Céramique | Peinture sur céramique sur la Seine</title>
+  <meta name="description" content="Ateliers de peinture sur céramique ouverts à tous, à bord du bateau Phènix sur la Seine, à Sèvres, à deux pas de Saint-Cloud. Environ 2 h, dès 42 €. Réservation en ligne.">
+  <meta property="og:title" content="Apoloé – La Pause Céramique">
+  <meta property="og:description" content="Peinture sur céramique, sur la Seine. Ouvert à tous, dès 42 €.">
+  <meta property="og:image" content="assets/terrasse-ateliers.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1E2A45">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,100;1,9..144,300..600,100&family=Instrument+Sans:wght@400..600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Apoloé – La Pause Céramique",
+    "description": "Ateliers de peinture sur céramique à bord du bateau Phènix, sur la Seine.",
+    "founder": "Laurence Hauchecorne",
+    "telephone": "+33676986280",
+    "image": "assets/terrasse-ateliers.jpg",
+    "priceRange": "42 € – 52 €",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bateau Phènix, 16 rue de Saint-Cloud",
+      "postalCode": "92310",
+      "addressLocality": "Sèvres",
+      "addressCountry": "FR"
+    },
+    "sameAs": ["https://www.instagram.com/apoloe.pauseceramique/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <!-- Silhouettes des pièces, réutilisées dans le sélecteur de tarifs -->
+  <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="etoile" viewBox="0 0 24 24"><path d="m12 2 2.9 6.6 7.1.7-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.3l7.1-.7L12 2Z"/></symbol>
+    <symbol id="p-bol" viewBox="0 0 120 120"><path d="M8 46h104c0 36-22 54-37 58v8H45v-8C30 100 8 82 8 46Z"/></symbol>
+    <symbol id="p-tasse" viewBox="0 0 120 120"><path d="M14 30h74v54c0 16-10 26-26 26H40c-16 0-26-10-26-26V30Z"/><path d="M88 42h8c11 0 18 8 18 19s-7 20-18 20h-8V69h8c4 0 6-3 6-8s-2-7-6-7h-8V42Z"/></symbol>
+    <symbol id="p-assiette" viewBox="0 0 120 120"><path fill-rule="evenodd" d="M60 8a52 52 0 1 1 0 104A52 52 0 0 1 60 8Zm0 22a30 30 0 1 0 0 60 30 30 0 0 0 0-60Z"/></symbol>
+    <symbol id="p-fleur" viewBox="0 0 120 120"><path fill-rule="evenodd" d="M60 6c13 0 22 10 22 22 11-6 24-3 30 8s3 24-8 31c10 6 13 19 7 29s-20 15-30 9c-1 8-10 13-21 13s-20-5-21-13c-10 6-24 1-30-9s-3-23 7-29C5 60 2 47 8 36s19-14 30-8C38 16 47 6 60 6Zm0 40a14 14 0 1 0 0 28 14 14 0 0 0 0-28Z"/></symbol>
+    <symbol id="p-vase" viewBox="0 0 120 120"><path d="M46 4h28v8c0 10-4 16 8 26 12 11 20 22 20 38 0 20-14 34-30 40H48c-16-6-30-20-30-40 0-16 8-27 20-38 12-10 8-16 8-26V4Z"/></symbol>
+    <symbol id="p-tirelire" viewBox="0 0 120 120"><path fill-rule="evenodd" d="M60 12c30 0 50 22 50 50 0 22-13 40-32 46H42C23 102 10 84 10 62c0-28 20-50 50-50ZM42 30v8h36v-8H42Z"/></symbol>
+    <symbol id="p-saladier" viewBox="0 0 120 120"><path d="M4 36h112c0 40-26 62-34 66v8H38v-8C30 98 4 76 4 36Z"/></symbol>
+    <symbol id="p-plat" viewBox="0 0 120 120"><rect x="4" y="34" width="112" height="52" rx="16"/></symbol>
+    <symbol id="p-haut" viewBox="0 0 120 120"><path d="M48 2h24v22c0 8 12 14 12 28v44c0 14-8 22-24 22s-24-8-24-22V52c0-14 12-20 12-28V2Z"/></symbol>
+    <symbol id="p-chope" viewBox="0 0 120 120"><path d="M16 8h66v98c0 4-3 6-7 6H23c-4 0-7-2-7-6V8Z"/><path d="M82 30h12c12 0 20 8 20 20v16c0 12-8 20-20 20H82V74h12c5 0 8-3 8-8V50c0-5-3-8-8-8H82V30Z"/></symbol>
+  </svg>
+
+  <div class="stripes" aria-hidden="true"></div>
+
+  <header class="top" id="top">
+    <nav class="nav" aria-label="Navigation principale">
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav__toggle-bars" aria-hidden="true"></span>
+        <span>Menu</span>
+      </button>
+      <ul class="nav__links" id="menu">
+        <li><a href="#deroule">L'atelier</a></li>
+        <li><a href="#pieces">Pièces &amp; tarifs</a></li>
+        <li><a href="#bord">À bord</a></li>
+        <li><a href="#privatiser">Privatiser</a></li>
+        <li><a href="#acces">Accès</a></li>
+      </ul>
+      <a class="nav__logo" href="#top" aria-label="Apoloé, La Pause Céramique, retour en haut de page">
+        <img src="assets/logo-apoloe.png" alt="" width="1400" height="610">
+      </a>
+      <a class="btn btn--line nav__cta" href="#reserver">Réserver</a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+
+    <!-- Accueil : croquis, couleur au pinceau, puis travelling piloté par le défilement -->
+    <section class="scroll-hero" id="accueil" aria-labelledby="hero-title">
+      <div class="scroll-hero__stage">
+        <picture class="scroll-hero__layer">
+          <source media="(max-width: 767px)" srcset="assets/croquis-9x16.jpg" width="864" height="1536">
+          <img src="assets/croquis-16x9.jpg" width="2400" height="1340" alt="" fetchpriority="high">
+        </picture>
+
+        <svg class="scroll-hero__layer scroll-hero__paint" aria-hidden="true" focusable="false">
+          <defs>
+            <mask id="coups-de-pinceau" maskUnits="userSpaceOnUse">
+              <rect class="scroll-hero__fill" width="100%" height="100%" fill="#fff" opacity="0"/>
+              <g class="scroll-hero__strokes" fill="none" stroke="#fff" stroke-linecap="round"></g>
+            </mask>
+          </defs>
+          <image class="scroll-hero__color" href="assets/peniche-16x9.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+        </svg>
+
+        <video class="scroll-hero__layer scroll-hero__video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+
+        <div class="scroll-hero__scrim" aria-hidden="true"></div>
+
+        <div class="scroll-hero__copy">
+          <p class="mono">Depuis 2025 <span class="rule" aria-hidden="true"></span> Sèvres, sur la Seine</p>
+          <h1 class="hero__title" id="hero-title">Colorez vos moments <em>de détente</em></h1>
+          <p class="scroll-hero__sub">Ateliers de peinture sur céramique, ouverts à tous, à bord d'une péniche amarrée sur la Seine.</p>
+          <a class="btn btn--red" href="#reserver">Réserver un atelier</a>
+        </div>
+
+        <p class="scroll-hero__cue mono" aria-hidden="true">(faites défiler)</p>
+      </div>
+    </section>
+
+    <section class="hero-facts" aria-label="L'atelier en bref">
+      <ul class="facts">
+        <li><h2>Environ 2 h</h2><p>Un moment convivial, créatif et unique, guidé par Laurence.</p></li>
+        <li><h2>Dès 42 €</h2><p>Pour peindre un bol, deux tasses à café ou quatre fleurs.</p></li>
+        <li><h2>Sur l'eau</h2><p>En cabine toute l'année, ou sur le pont quand le soleil est là.</p></li>
+      </ul>
+      <a class="hero__go" href="#reserver">
+        <span class="mono">(voir les prochaines dates)</span>
+        <svg viewBox="0 0 240 16" aria-hidden="true"><path d="M0 8h236M226 1l10 7-10 7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      </a>
+    </section>
+
+    <!-- Déroulé -->
+    <section class="section steps" id="deroule">
+      <header class="head">
+        <p class="mono eyebrow">(comment ça se passe)</p>
+        <h2 class="h2">Quatre temps, et une part de <em>surprise</em></h2>
+      </header>
+      <ol class="steps__list">
+        <li>
+          <span class="steps__n" aria-hidden="true">1</span>
+          <h3>Choisir</h3>
+          <p>Bols, mugs, vases, assiettes… Vous partez d'un large choix d'objets, et de fleurs pour composer un bouquet éternel.</p>
+        </li>
+        <li>
+          <span class="steps__n" aria-hidden="true">2</span>
+          <h3>Peindre</h3>
+          <p>Couleurs, pinceaux, tampons, pochoirs et idées sont à votre disposition. Laurence vous guide à travers les techniques.</p>
+        </li>
+        <li>
+          <span class="steps__n" aria-hidden="true">3</span>
+          <h3>Confier</h3>
+          <p>Vos pièces passent par un bain d'émail, puis plusieurs heures au four à plus de 1000° pour durer.</p>
+        </li>
+        <li>
+          <span class="steps__n" aria-hidden="true">4</span>
+          <h3>Récupérer</h3>
+          <p>Vous revenez chercher vos œuvres, une fois cuites. Elles risquent de vous étonner&nbsp;!</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Tarifs -->
+    <section class="prices" id="pieces">
+      <div class="prices__left">
+        <p class="mono eyebrow">(pièces &amp; tarifs)</p>
+        <h2 class="h2">Quelle pièce allez-vous peindre&nbsp;?</h2>
+        <div class="tabs" role="tablist" aria-label="Formules par prix">
+          <button role="tab" id="t42" aria-controls="f42" aria-selected="true">42&nbsp;€</button>
+          <button role="tab" id="t48" aria-controls="f48" aria-selected="false" tabindex="-1">48&nbsp;€</button>
+          <button role="tab" id="t52" aria-controls="f52" aria-selected="false" tabindex="-1">52&nbsp;€</button>
+        </div>
+
+        <div class="panel" role="tabpanel" id="f42" aria-labelledby="t42" tabindex="0">
+          <p class="panel__big" aria-hidden="true">42&nbsp;€</p>
+          <ul>
+            <li>Un bol</li><li>Un dessous de plat</li><li>Une assiette à dessert</li>
+            <li>Une assiette pour café gourmand</li><li>Deux tasses à café</li>
+            <li>Un pot à crayons</li><li>Un bouquet de quatre fleurs</li>
+          </ul>
+        </div>
+        <div class="panel" role="tabpanel" id="f48" aria-labelledby="t48" tabindex="0">
+          <p class="panel__big" aria-hidden="true">48&nbsp;€</p>
+          <ul>
+            <li>Un petit saladier</li><li>Un beurrier</li><li>Une tirelire</li>
+            <li>Un vase</li><li>Un cache-pot</li>
+          </ul>
+        </div>
+        <div class="panel" role="tabpanel" id="f52" aria-labelledby="t52" tabindex="0">
+          <p class="panel__big" aria-hidden="true">52&nbsp;€</p>
+          <ul>
+            <li>Une grande assiette rectangulaire</li><li>Un plat à cake</li><li>Un vase haut</li>
+            <li>Une tirelire-bourse</li><li>Une chope à bière</li>
+          </ul>
+        </div>
+        <p class="note">Par personne. Petits extras à partir de 5&nbsp;€.</p>
+      </div>
+
+      <div class="prices__right" aria-hidden="true">
+        <div class="shelf" data-for="f42">
+          <svg class="s-navy"><use href="#p-bol"/></svg>
+          <svg class="s-cream"><use href="#p-tasse"/></svg>
+          <svg class="s-red"><use href="#p-fleur"/></svg>
+          <svg class="s-butter"><use href="#p-assiette"/></svg>
+        </div>
+        <div class="shelf" data-for="f48">
+          <svg class="s-cream"><use href="#p-vase"/></svg>
+          <svg class="s-red"><use href="#p-saladier"/></svg>
+          <svg class="s-navy"><use href="#p-tirelire"/></svg>
+        </div>
+        <div class="shelf" data-for="f52">
+          <svg class="s-red"><use href="#p-haut"/></svg>
+          <svg class="s-butter"><use href="#p-plat"/></svg>
+          <svg class="s-cream"><use href="#p-chope"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bouquets -->
+    <section class="section bouquet">
+      <figure class="bouquet__img">
+        <img src="assets/bouquet-eternel.jpg" loading="lazy" width="900" height="1200"
+             alt="Fleurs en céramique à rayures rouges et blanches, mêlées à des épis séchés, dans un vase rouge en forme de fleur.">
+      </figure>
+      <div class="bouquet__txt">
+        <p class="mono eyebrow">(exclusivité de l'atelier)</p>
+        <h2 class="h2">Des bouquets <em>éternels</em></h2>
+        <p class="lead">Chez Apoloé, on peint aussi des fleurs. Composez et personnalisez votre bouquet, pétale après pétale : il ne fanera jamais.</p>
+        <a class="link" href="#reserver">Quatre fleurs pour 42&nbsp;€</a>
+      </div>
+    </section>
+
+    <!-- À bord -->
+    <section class="board" id="bord">
+      <div class="board__head">
+        <p class="mono eyebrow">(à bord du Phènix)</p>
+        <h2 class="h2">Un atelier qui a le pied <em>marin</em></h2>
+        <p class="lead">Pas de salle de cours ici : on peint à bord d'une péniche, face à la Seine. La cabine est climatisée l'été et chauffée l'hiver. Quand le soleil est là, l'atelier se passe dehors, sur le pont.</p>
+      </div>
+      <figure class="board__tall">
+        <img src="assets/vue-seine.jpg" loading="lazy" width="480" height="640"
+             alt="Un vase et un mug peints posés sur le bastingage, devant la Seine et les arbres de la rive.">
+      </figure>
+      <blockquote class="board__quote">
+        <p>«&nbsp;Pour colorer vos moments de détente&nbsp;!&nbsp;»</p>
+        <footer>Laurence Hauchecorne, fondatrice d'Apoloé</footer>
+      </blockquote>
+    </section>
+
+    <!-- Galerie -->
+    <section class="section gallery" id="creations">
+      <header class="head">
+        <p class="mono eyebrow">(vos créations)</p>
+        <h2 class="h2">Sorties du four</h2>
+      </header>
+      <div class="gallery__grid">
+        <figure class="g1">
+          <img src="assets/pile-tasses.jpg" loading="lazy" width="890" height="1210"
+               alt="Cinq tasses peintes empilées : croix, portée musicale, vagues, fleurs et rayures rouges.">
+          <figcaption class="mono">Tasses à café, deux par formule</figcaption>
+        </figure>
+        <figure class="g2">
+          <img src="assets/mug-corail.jpg" loading="lazy" width="1100" height="733"
+               alt="Mug blanc peint d'un corail rouge et d'un poisson-clown.">
+          <figcaption class="mono">Le corail</figcaption>
+        </figure>
+        <figure class="g3">
+          <img src="assets/tasse-bleue.jpg" loading="lazy" width="1100" height="733"
+               alt="Petite tasse bleue et blanche ornée de festons verts et de points.">
+          <figcaption class="mono">Festons &amp; petits points</figcaption>
+        </figure>
+      </div>
+      <a class="link" href="https://www.instagram.com/apoloe.pauseceramique/" rel="noopener">Plus de pièces sur Instagram</a>
+    </section>
+
+    <!-- Avis Google : note et nombre relevés le 1er novembre 2026, à actualiser -->
+    <section class="reviews" id="avis">
+      <div class="reviews__score">
+        <p class="mono eyebrow">(ils sont montés à bord)</p>
+        <p class="reviews__num">5,0</p>
+        <p class="stars" role="img" aria-label="5 étoiles sur 5">
+          <svg aria-hidden="true"><use href="#etoile"/></svg><svg aria-hidden="true"><use href="#etoile"/></svg><svg aria-hidden="true"><use href="#etoile"/></svg><svg aria-hidden="true"><use href="#etoile"/></svg><svg aria-hidden="true"><use href="#etoile"/></svg>
+        </p>
+        <p>16 avis sur Google</p>
+      </div>
+      <div class="reviews__body">
+        <h2 class="visually-hidden">Les avis de nos participants</h2>
+        <blockquote>
+          <p>«&nbsp;De supers souvenirs dans la tête, le cœur et les mains&nbsp;»</p>
+          <footer class="mono">Extrait des avis Google</footer>
+        </blockquote>
+        <blockquote>
+          <p>«&nbsp;Un grand artiste ou un gribouilleur du dimanche […], vous passerez un bon moment&nbsp;»</p>
+          <footer class="mono">Extrait des avis Google</footer>
+        </blockquote>
+        <blockquote>
+          <p>«&nbsp;La péniche Phenix, nichée au bord de la Seine, est un lieu vraiment charmant, intimiste et apaisant&nbsp;»</p>
+          <footer class="mono">Extrait des avis Google</footer>
+        </blockquote>
+
+        <a class="link" href="https://www.google.com/maps/place/Apolo%C3%A9+-+LA+PAUSE+CERAMIQUE/@48.8349424,2.2231309,17z/data=!3m1!4b1!4m6!3m5!1s0xa83917b0930f082f:0xf9c122847785bfc8!8m2!3d48.8349424!4d2.2231309!16s%2Fg%2F11ssbdz080?hl=fr" rel="noopener">Lire tous les avis sur Google</a>
+      </div>
+    </section>
+
+    <!-- Privatisation -->
+    <section class="private" id="privatiser">
+      <p class="mono eyebrow">(événements privés)</p>
+      <h2 class="private__title">Le bateau<br>est <em>à vous</em></h2>
+      <div class="private__body">
+        <p class="lead">Vous êtes 3, 6 personnes, voire plus&nbsp;? Anniversaire, EVJF, moment en famille ou sortie d'équipe : privatisez l'atelier le temps d'une pause. Laurence s'arrange avec vous.</p>
+        <div class="private__cta">
+          <a class="btn btn--cream" href="tel:+33676986280">Appeler le 06&nbsp;76&nbsp;98&nbsp;62&nbsp;80</a>
+          <a class="btn btn--ghost" href="https://www.instagram.com/apoloe.pauseceramique/" rel="noopener">Écrire sur Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Réservation -->
+    <section class="section book" id="reserver">
+      <header class="head">
+        <p class="mono eyebrow">(réserver)</p>
+        <h2 class="h2">Choisissez votre <em>pause</em></h2>
+        <p class="lead">Les créneaux et les places disponibles sont à jour dans la billetterie ci-dessous.</p>
+      </header>
+      <div class="book__frame">
+        <iframe src="https://widget.weezevent.com/ticket/E1259421/?color_primary=df4242&amp;locale=fr-fr&amp;width_auto=1&amp;code=10350&amp;neo=1&amp;o=minisite"
+                title="Billetterie Weezevent d'Apoloé" loading="lazy"></iframe>
+      </div>
+      <p class="note">La billetterie ne s'affiche pas&nbsp;? <a href="https://my.weezevent.com/la-pause-ceramique-2" rel="noopener">Ouvrez-la sur Weezevent</a>.</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="questions">
+      <header class="head">
+        <p class="mono eyebrow">(questions)</p>
+        <h2 class="h2">Avant de monter à bord</h2>
+      </header>
+      <div class="faq__list">
+        <details>
+          <summary>Faut-il savoir dessiner&nbsp;?</summary>
+          <p>Non. L'atelier est ouvert à tous : Laurence vous guide, et les tampons, pochoirs et sources d'inspiration sont là pour vous lancer.</p>
+        </details>
+        <details>
+          <summary>Combien de temps dure un atelier&nbsp;?</summary>
+          <p>Environ 2 heures.</p>
+        </details>
+        <details>
+          <summary>Pourquoi ne repart-on pas avec sa pièce&nbsp;?</summary>
+          <p>Elle doit encore recevoir un bain d'émail, puis passer plusieurs heures au four à plus de 1000°, ce qui lui assure sa durabilité. Vous revenez la chercher une fois prête.</p>
+        </details>
+        <details>
+          <summary>Et s'il fait très chaud ou très froid&nbsp;?</summary>
+          <p>La cabine est climatisée l'été et chauffée l'hiver. Par beau temps, vous pouvez aussi peindre dehors, sur le pont de la péniche.</p>
+        </details>
+        <details>
+          <summary>Peut-on venir en groupe&nbsp;?</summary>
+          <p>Oui. Dès 3 personnes, contactez Laurence au 06&nbsp;76&nbsp;98&nbsp;62&nbsp;80 pour organiser un moment privatisé.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Accès -->
+    <section class="access" id="acces">
+      <div>
+        <p class="mono eyebrow">(accès)</p>
+        <h2 class="h2">Sur la Seine, à deux pas de Saint-Cloud</h2>
+      </div>
+      <address>
+        <strong>Bateau Phènix</strong><br>
+        16 rue de Saint-Cloud<br>
+        92310 Sèvres<br>
+        Parking Nord de l'Île Monsieur
+        <span class="access__tip">Le lieu est bien caché : prévoyez un peu de marge pour arriver à l'heure.</span>
+      </address>
+      <div class="access__links">
+        <a class="link" href="https://www.google.com/maps/dir/?api=1&amp;hl=fr-fr&amp;destination=16%2C%20rue%20de%20Saint-Cloud%2092310%20S%C3%A8vres%20FR" rel="noopener">Préparer mon itinéraire</a>
+        <a class="link" href="tel:+33676986280">06 76 98 62 80</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <img class="foot__logo" src="assets/logo-apoloe.png" width="1400" height="610" loading="lazy" alt="Apoloé, La Pause Céramique">
+
+    <p class="mono">Laurence Hauchecorne, fondatrice<br>SIRET 919 071 431 00010</p>
+    <ul class="mono">
+      <li><a href="https://www.instagram.com/apoloe.pauseceramique/" rel="noopener">Instagram</a></li>
+      <li><a href="https://my.weezevent.com/la-pause-ceramique-2" rel="noopener">Billetterie</a></li>
+      <li><a href="https://weezevent.com/fr/cgv-weezticket/" rel="noopener">CGV Weezevent</a></li>
+    </ul>
+  </footer>
+
+  <a class="stickybook btn btn--red" href="#reserver">Réserver un atelier</a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="hero-scroll.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
